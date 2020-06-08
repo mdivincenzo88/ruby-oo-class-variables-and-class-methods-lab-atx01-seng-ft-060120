@@ -47,5 +47,20 @@ genre_by_count
 
 end
 
+def self.artist_count
+  artist_by_count= {}
+  
+  @@artists.each do |i| if artist_by_count[i] 
+  artist_by_count[i] += 1
+else
+  artist_by_count[i]=1
+end  
+
+
+end
+artist_by_count
+
+end
+
 end
  
