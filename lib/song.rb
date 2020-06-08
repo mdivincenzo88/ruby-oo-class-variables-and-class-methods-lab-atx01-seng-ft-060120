@@ -37,7 +37,9 @@ def genre_count
   
   @@genres.each do |i| if genre_by_count[i] = TRUE
   genre_by_count[i] = genre_by_count [i] +1
-  
+else
+  genre_by_count[i]=1 
+end  
 
 end
 
