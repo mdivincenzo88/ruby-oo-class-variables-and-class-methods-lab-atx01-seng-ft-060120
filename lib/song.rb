@@ -40,9 +40,10 @@ def self.genre_count
 else
   genre_by_count[i]=1 
 end  
-genre_by_count
+
 
 end
+genre_by_count
 
 end
 end
