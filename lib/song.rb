@@ -41,9 +41,9 @@ else
   genre_by_count[i]=1 
 end  
 
-
-end
 genre_by_count
+end
+
 
 end
 end
