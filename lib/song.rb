@@ -35,7 +35,7 @@ end
 def genre_count
   genre_by_count= {}
   
-  @@genres.each
+  @@genres.each 
 
 end
 
