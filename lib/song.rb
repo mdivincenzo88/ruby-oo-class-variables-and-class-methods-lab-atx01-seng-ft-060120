@@ -20,15 +20,15 @@ def initialize(name,artist,genre)
    self.name.length
  end
  
- def count 
+ def self.count 
    @@song_names.uniq.count
  end
  
- def artists
+ def self.artists
    @@artists.uniq
  end
  
- def genres
+ def self.genres
    @@genres.uniq
 end
 
