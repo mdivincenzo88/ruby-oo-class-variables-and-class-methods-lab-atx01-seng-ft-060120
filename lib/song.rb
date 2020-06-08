@@ -32,7 +32,7 @@ def initialize(name,artist,genre)
    @@genres.uniq
 end
 
-def genre_count
+def self.genre_count
   genre_by_count= {}
   
   @@genres.each do |i| if genre_by_count[i] = TRUE
