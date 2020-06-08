@@ -40,6 +40,7 @@ def genre_count
 else
   genre_by_count[i]=1 
 end  
+genre_by_count
 
 end
 
